@@ -1,8 +1,8 @@
 class Carro: #classe
-    def __init__(self, modelo, cor, ano):
-        self.modelo = '' # atributos de instancias
-        self.cor = '' # atributos de instancias
-        self.ano = int # atributos de instancias
+    def __init__(self, modelo, cor, ano): # Métodos
+        self.modelo = '' # atributos
+        self.cor = '' # atributos
+        self.ano = int # atributos 
 
 
 #instancias
