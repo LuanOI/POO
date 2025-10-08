@@ -16,7 +16,7 @@ class Restaurante:
         self.cidade = ''
         self.estado = int
     def __str__(self):
-        return f'{self.nome} | {self.categoria}' | {self.cidade}        
+        return f'{self.nome} | {self.categoria} | {self.cidade}'        
 
 restaurante_01 = Restaurante('Chapa', 'Lanches', 'False', 'São Paulo','SP') 
 
